@@ -1,5 +1,5 @@
 # app_odoo_sga
-Es un proyecto de flutter para crear una App que integre con odoo el trabajo de tren remolcador. Este proyecto necesita para trabajar el acceso al endpoint para buscar las url de las ubicaciones.
+Es un proyecto de flutter para crear una Aoplicación para Android que integre con odoo el trabajo de tren remolcador. Este proyecto necesita para trabajar el acceso al endpoint para buscar las url de las ubicaciones.
 
 # Mis datos de contacto
 ```
