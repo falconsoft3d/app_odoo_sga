@@ -75,6 +75,30 @@ class FirstPage extends StatelessWidget {
                   ),
                 ),
 
+                const SizedBox(height: 10),
+
+                const Text('Odoo SGA',
+                    style: TextStyle(
+                      fontSize: 18,
+                    )),
+
+                const SizedBox(height: 10),
+
+                const Text('wwww.marlonfalcon.com',
+                    style: TextStyle(
+                      fontSize: 18,
+                    )),
+
+
+                const SizedBox(height: 10),
+
+                const Text('Versión 1.0.0.0 - 05/2023',
+                    style: TextStyle(
+                      fontSize: 12,
+                    )),
+
+                    
+
 
                  ],
               )
