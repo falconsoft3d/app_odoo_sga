@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:app_odoo_sga/first_page.dart';
+import 'package:app_odoo_sga/config_page.dart';
 
 class HomePage extends StatelessWidget {
    
@@ -9,29 +9,30 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Scaffold(
        appBar: AppBar(
-         title: const Text('Home Page'),
-         backgroundColor: Colors.deepPurple[300],
+         title: const Text('Tren remolcador'),
+         backgroundColor: Colors.deepPurple,
        ),
        drawer: Drawer(
           child : Container(
-            color: Colors.deepPurple[100],
+            color: Colors.deepPurple,
             child: ListView(
               children: [
                  const DrawerHeader(child: 
                     Center(child: Text ('APP ODOO SGA', 
                       style: TextStyle(
                           fontSize: 30, 
-                          color: Colors.black),))
+                          color: Colors.white),))
                  ),
+                 
                  
 
                    ListTile (
                     leading: const Icon(Icons.home),
                     title: const Text(
-                      'Home',
+                      'Tren remolcador',
                       style: TextStyle(
                           fontSize: 20, 
-                          color: Colors.black),
+                          color: Colors.white),
                           ),
                       onTap: () { 
                             Navigator.of(context).push(
@@ -42,10 +43,10 @@ class HomePage extends StatelessWidget {
                   ListTile (
                     leading: const Icon(Icons.book),
                     title: const Text(
-                      'Page 1',
+                      'Configurar',
                       style: TextStyle(
                           fontSize: 20, 
-                          color: Colors.black),
+                          color: Colors.white),
                           ),
                       onTap: () { 
                             Navigator.of(context).push(
